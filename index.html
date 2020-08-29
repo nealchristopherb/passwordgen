@@ -9,6 +9,18 @@
 <body>
     <div class="container">
         <div class="heading">PASSWORD GENERATOR</div>
+        <input type="checkbox" id="Case1" name="uppercase" value="uppercase">
+        <label for="uppercase">Use upper case letters?</label><br>
+        <input type="checkbox" id="Case2" name="lowercase" value="lowercase">
+        <label for="lowercase">Use lower case letters?</label><br>
+        <input type="checkbox" id="Case3" name="numbers" value="numbers">
+        <label for="numbers">Use numbers?</label><br>
+        <input type="checkbox" id="Case3" name="symbols" value="symbols">
+        <label for="symbols">Use symbols?</label><br>
+        <input type="number" id="range" name="range" min="8" max="128">
+        <label for="range">Choose a password length between 8 and 128 characters.</label><br>
+    <button id="genBtn" type="button"onclick="alert('Hello world!')">Generate password</button>
+           
 
 
 
